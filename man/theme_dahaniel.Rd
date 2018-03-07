@@ -17,4 +17,3 @@ a ggplot2 theme based on solarized 2
 \description{
 Dahaniel ggplot2 theme
 }
-

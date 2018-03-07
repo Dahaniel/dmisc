@@ -8,4 +8,4 @@ Maintainer: Daniel Münch <daniel@muench.bio>
 Description: Messy collection of ggplot theme, helpers etc.
 License: GPL-3 + file LICENSE
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

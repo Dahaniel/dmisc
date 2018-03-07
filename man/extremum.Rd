@@ -12,4 +12,3 @@ extremum(x, na.rm = F)
 \description{
 Title
 }
-

@@ -12,4 +12,3 @@ g_legend(a.gplot)
 \description{
 Title
 }
-

@@ -12,4 +12,3 @@ sortMixtureLevels(data.object, experiment)
 \description{
 sortMixtureLevels
 }
-

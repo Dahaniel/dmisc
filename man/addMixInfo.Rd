@@ -13,4 +13,3 @@ addMixInfo(data.object, type = "notRAW", experiment, refs = 3,
 \description{
 addMixInfo
 }
-

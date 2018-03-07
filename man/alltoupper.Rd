@@ -12,4 +12,3 @@ alltoupper(x)
 \description{
 Title
 }
-

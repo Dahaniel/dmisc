@@ -12,4 +12,3 @@ x \%ni\% table
 \description{
 Title
 }
-

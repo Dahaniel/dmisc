@@ -12,4 +12,3 @@ which.extremum(x)
 \description{
 Title
 }
-

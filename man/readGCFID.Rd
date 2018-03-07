@@ -25,4 +25,3 @@ exported as .txt file (export chromatogram to the clipboard and pasted into a
 \strong{animals} the elements need to exist as folder in 'path', the
   individual recordings need to be named 'animal\strong{_}odor\strong{-}concentration.txt'
 }
-
