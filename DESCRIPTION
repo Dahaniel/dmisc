@@ -1,11 +1,11 @@
 Package: dmisc
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Daniel's Misc Stuff
 Version: 0.1
 Date: 2015-05-12
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: person('Daniel', 'Münch', email='daniel@muench.bio', role = c('aut', 'cre'))
+Maintainer: Daniel Münch <daniel@muench.bio>
+Description: Messy collection of ggplot theme, helpers etc.
 License: GPL-3 + file LICENSE
 LazyData: TRUE
 RoxygenNote: 5.0.1
