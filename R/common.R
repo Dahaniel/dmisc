@@ -3,7 +3,6 @@
 
 
 ## define %ni% analogous to %in% (see ?match)
-<<<<<<< HEAD
 #' Title
 #'
 #' @param x
@@ -13,6 +12,7 @@
 #' @export
 #'
 #' @examples
+
 '%ni%' <- function(x, table) {
   match(x, table, nomatch = 0) == 0
 }
@@ -28,12 +28,7 @@
 #' @export
 #'
 #' @examples
-=======
-'%ni%' <- function(x, table) match(x, table, nomatch = 0) == 0
 
-
-## calc ppm according to Pelz2005
->>>>>>> f5ecebce5c8cd90c7769029890e1099edb3b7a6e
 ppmCalc <- function(vp, dilution) {
   loga <- 1.359 * log10(vp) + 2.0404
   a <- 10 ^ loga
@@ -45,7 +40,6 @@ ppmCalc <- function(vp, dilution) {
 
 
 ## transform all levels of a data.frame to upper case
-<<<<<<< HEAD
 #' Title
 #'
 #' @param x
@@ -54,8 +48,7 @@ ppmCalc <- function(vp, dilution) {
 #' @export
 #'
 #' @examples
-=======
->>>>>>> f5ecebce5c8cd90c7769029890e1099edb3b7a6e
+
 alltoupper <- function(x) {
   for (i in 1:length(x))
     levels(x[,i]) <- toupper(levels(x[,i]))
@@ -64,7 +57,6 @@ alltoupper <- function(x) {
 
 
 ## lifetime kurtosis
-<<<<<<< HEAD
 #' Title
 #'
 #' @param x
@@ -73,8 +65,7 @@ alltoupper <- function(x) {
 #' @export
 #'
 #' @examples
-=======
->>>>>>> f5ecebce5c8cd90c7769029890e1099edb3b7a6e
+
 ltk <- function(x) {
   x <- na.omit(x)
   (sum(((x - mean(
@@ -86,7 +77,6 @@ ltk <- function(x) {
 
 
 ## function to find extremum
-<<<<<<< HEAD
 #' Title
 #'
 #' @param x
@@ -96,8 +86,7 @@ ltk <- function(x) {
 #' @export
 #'
 #' @examples
-=======
->>>>>>> f5ecebce5c8cd90c7769029890e1099edb3b7a6e
+
 extremum <- function(x, na.rm = F) {
   min <- min(x, na.rm = na.rm)
   #	minpos <- which.min(x)
@@ -107,7 +96,6 @@ extremum <- function(x, na.rm = F) {
   ifelse (min.abs > max, return(min), return(max))
 }
 
-<<<<<<< HEAD
 #' Title
 #'
 #' @param x
@@ -116,8 +104,7 @@ extremum <- function(x, na.rm = F) {
 #' @export
 #'
 #' @examples
-=======
->>>>>>> f5ecebce5c8cd90c7769029890e1099edb3b7a6e
+
 which.extremum <- function(x)
 {
   min <- min(x)
@@ -138,7 +125,6 @@ which.extremum <- function(x)
 
 
 ## g_legend
-<<<<<<< HEAD
 #' Title
 #'
 #' @param a.gplot
@@ -147,8 +133,7 @@ which.extremum <- function(x)
 #' @export
 #'
 #' @examples
-=======
->>>>>>> f5ecebce5c8cd90c7769029890e1099edb3b7a6e
+
 g_legend <- function(a.gplot) {
   tmp <- ggplot_gtable(ggplot_build(a.gplot))
   leg <-
